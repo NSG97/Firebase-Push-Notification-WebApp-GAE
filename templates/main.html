@@ -4,9 +4,11 @@
 	<title>Push Notification</title>
 </head>
 <body>
-<form method="POST" action="/sent.php">
-	<textarea name="NotificationText" cols="30" rows="7"></textarea><br>
+<!-- Form to enter Notification Text that will be sent to /sent.php through the POST method -->
+<form method="POST" action="/sent.html">
+	<textarea name="NotificationText" cols="30" rows="7" required></textarea><br>
 	<input type="submit" name="sendNotif" value="Send Notification">
 </form>
+
 </body>
 </html>
